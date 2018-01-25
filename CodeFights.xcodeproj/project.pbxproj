@@ -14,6 +14,14 @@
 		174D58D22010876F009D45C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174D58D02010876F009D45C3 /* LaunchScreen.storyboard */; };
 		174D58DD2010876F009D45C3 /* CodeFightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D58DC2010876F009D45C3 /* CodeFightsTests.swift */; };
 		174D58E82010876F009D45C3 /* CodeFightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D58E72010876F009D45C3 /* CodeFightsUITests.swift */; };
+		174D58F82010887F009D45C3 /* add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D58F72010887F009D45C3 /* add.swift */; };
+		174D58FA20109B84009D45C3 /* centuryFromYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D58F920109B84009D45C3 /* centuryFromYear.swift */; };
+		174D58FE20109CA0009D45C3 /* checkPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D58FD20109CA0009D45C3 /* checkPalindrome.swift */; };
+		174DBA232012FE8E006AF7E6 /* adjacentElementsProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174DBA222012FE8E006AF7E6 /* adjacentElementsProduct.swift */; };
+		174DBA2520130EA5006AF7E6 /* shapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174DBA2420130EA5006AF7E6 /* shapeArea.swift */; };
+		175213E32019CE2B0087737F /* matrixElementsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175213E22019CE2B0087737F /* matrixElementsSum.swift */; };
+		1789EB3C20146EAB0067F58A /* makeArrayConsecutive2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EB3B20146EAB0067F58A /* makeArrayConsecutive2.swift */; };
+		1789EB3E20146ED50067F58A /* almostIncreasingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789EB3D20146ED50067F58A /* almostIncreasingSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		174D58E32010876F009D45C3 /* CodeFightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeFightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174D58E72010876F009D45C3 /* CodeFightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFightsUITests.swift; sourceTree = "<group>"; };
 		174D58E92010876F009D45C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174D58F72010887F009D45C3 /* add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add.swift; sourceTree = "<group>"; };
+		174D58F920109B84009D45C3 /* centuryFromYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centuryFromYear.swift; sourceTree = "<group>"; };
+		174D58FD20109CA0009D45C3 /* checkPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkPalindrome.swift; sourceTree = "<group>"; };
+		174DBA222012FE8E006AF7E6 /* adjacentElementsProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adjacentElementsProduct.swift; sourceTree = "<group>"; };
+		174DBA2420130EA5006AF7E6 /* shapeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeArea.swift; sourceTree = "<group>"; };
+		175213E22019CE2B0087737F /* matrixElementsSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matrixElementsSum.swift; sourceTree = "<group>"; };
+		1789EB3B20146EAB0067F58A /* makeArrayConsecutive2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeArrayConsecutive2.swift; sourceTree = "<group>"; };
+		1789EB3D20146ED50067F58A /* almostIncreasingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = almostIncreasingSequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 			children = (
 				174D58C72010876F009D45C3 /* AppDelegate.swift */,
 				174D58C92010876F009D45C3 /* ViewController.swift */,
+				174D58FF2010B0EB009D45C3 /* Arcade */,
 				174D58CB2010876F009D45C3 /* Main.storyboard */,
 				174D58CE2010876F009D45C3 /* Assets.xcassets */,
 				174D58D02010876F009D45C3 /* LaunchScreen.storyboard */,
@@ -123,6 +140,45 @@
 				174D58E92010876F009D45C3 /* Info.plist */,
 			);
 			path = CodeFightsUITests;
+			sourceTree = "<group>";
+		};
+		174D58F52010885D009D45C3 /* The Journey Begins */ = {
+			isa = PBXGroup;
+			children = (
+				174D58F72010887F009D45C3 /* add.swift */,
+				174D58F920109B84009D45C3 /* centuryFromYear.swift */,
+				174D58FD20109CA0009D45C3 /* checkPalindrome.swift */,
+			);
+			path = "The Journey Begins";
+			sourceTree = "<group>";
+		};
+		174D58FF2010B0EB009D45C3 /* Arcade */ = {
+			isa = PBXGroup;
+			children = (
+				174D58F52010885D009D45C3 /* The Journey Begins */,
+				174DBA212012FE61006AF7E6 /* Edge of the Ocean */,
+				175213E42019E2E40087737F /* Smooth Sailing */,
+			);
+			path = Arcade;
+			sourceTree = "<group>";
+		};
+		174DBA212012FE61006AF7E6 /* Edge of the Ocean */ = {
+			isa = PBXGroup;
+			children = (
+				174DBA222012FE8E006AF7E6 /* adjacentElementsProduct.swift */,
+				174DBA2420130EA5006AF7E6 /* shapeArea.swift */,
+				1789EB3B20146EAB0067F58A /* makeArrayConsecutive2.swift */,
+				1789EB3D20146ED50067F58A /* almostIncreasingSequence.swift */,
+				175213E22019CE2B0087737F /* matrixElementsSum.swift */,
+			);
+			path = "Edge of the Ocean";
+			sourceTree = "<group>";
+		};
+		175213E42019E2E40087737F /* Smooth Sailing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Smooth Sailing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174DBA232012FE8E006AF7E6 /* adjacentElementsProduct.swift in Sources */,
+				175213E32019CE2B0087737F /* matrixElementsSum.swift in Sources */,
+				1789EB3E20146ED50067F58A /* almostIncreasingSequence.swift in Sources */,
 				174D58CA2010876F009D45C3 /* ViewController.swift in Sources */,
 				174D58C82010876F009D45C3 /* AppDelegate.swift in Sources */,
+				174DBA2520130EA5006AF7E6 /* shapeArea.swift in Sources */,
+				174D58F82010887F009D45C3 /* add.swift in Sources */,
+				1789EB3C20146EAB0067F58A /* makeArrayConsecutive2.swift in Sources */,
+				174D58FA20109B84009D45C3 /* centuryFromYear.swift in Sources */,
+				174D58FE20109CA0009D45C3 /* checkPalindrome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.angelovillegas.CodeFights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -447,7 +511,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.angelovillegas.CodeFights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
