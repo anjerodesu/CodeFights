@@ -29,6 +29,10 @@
 		178D7EB8201C71E2005E5D71 /* sortByHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D7EB7201C71E2005E5D71 /* sortByHeight.swift */; };
 		178D7EBA201C71F9005E5D71 /* CodeFightsSortByHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D7EB9201C71F9005E5D71 /* CodeFightsSortByHeight.swift */; };
 		178D7EBC201C8DF9005E5D71 /* reverseParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D7EBB201C8DF9005E5D71 /* reverseParentheses.swift */; };
+		17BB77A420205363009AA606 /* alternatingSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB77A320205363009AA606 /* alternatingSums.swift */; };
+		17BB77A6202054FB009AA606 /* CodeFightsAlternatingSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB77A5202054FB009AA606 /* CodeFightsAlternatingSums.swift */; };
+		17BB77A8202087D9009AA606 /* addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB77A7202087D9009AA606 /* addBorder.swift */; };
+		17BB77AA202087E9009AA606 /* CodeFightsAddBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB77A9202087E9009AA606 /* CodeFightsAddBorder.swift */; };
 		17E8B60B201ACCE200EA4B58 /* CodeFightsIsLuckyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8B60A201ACCE200EA4B58 /* CodeFightsIsLuckyTest.swift */; };
 		17E8B60F201AD8DB00EA4B58 /* CodeFightsAddTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8B60E201AD8DB00EA4B58 /* CodeFightsAddTest.swift */; };
 		17E8B611201ADA7B00EA4B58 /* CodeFightsCenturyFromYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8B610201ADA7B00EA4B58 /* CodeFightsCenturyFromYear.swift */; };
@@ -89,6 +93,10 @@
 		178D7EB7201C71E2005E5D71 /* sortByHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sortByHeight.swift; sourceTree = "<group>"; };
 		178D7EB9201C71F9005E5D71 /* CodeFightsSortByHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFightsSortByHeight.swift; sourceTree = "<group>"; };
 		178D7EBB201C8DF9005E5D71 /* reverseParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseParentheses.swift; sourceTree = "<group>"; };
+		17BB77A320205363009AA606 /* alternatingSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alternatingSums.swift; sourceTree = "<group>"; };
+		17BB77A5202054FB009AA606 /* CodeFightsAlternatingSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFightsAlternatingSums.swift; sourceTree = "<group>"; };
+		17BB77A7202087D9009AA606 /* addBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addBorder.swift; sourceTree = "<group>"; };
+		17BB77A9202087E9009AA606 /* CodeFightsAddBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFightsAddBorder.swift; sourceTree = "<group>"; };
 		17E8B60A201ACCE200EA4B58 /* CodeFightsIsLuckyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFightsIsLuckyTest.swift; sourceTree = "<group>"; };
 		17E8B60E201AD8DB00EA4B58 /* CodeFightsAddTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFightsAddTest.swift; sourceTree = "<group>"; };
 		17E8B610201ADA7B00EA4B58 /* CodeFightsCenturyFromYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFightsCenturyFromYear.swift; sourceTree = "<group>"; };
@@ -230,6 +238,7 @@
 				174D58F52010885D009D45C3 /* The Journey Begins */,
 				174DBA212012FE61006AF7E6 /* Edge of the Ocean */,
 				175213E42019E2E40087737F /* Smooth Sailing */,
+				17BB77A12020531B009AA606 /* Exploring the Waters */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -248,8 +257,27 @@
 				17E8B60C201AD38700EA4B58 /* The Journey Begins */,
 				17E8B60D201AD39300EA4B58 /* Edge of the Ocean */,
 				17E8B609201ACAE900EA4B58 /* Smooth Sailing */,
+				17BB77A220205338009AA606 /* Exploring the Waters */,
 			);
 			path = Intro;
+			sourceTree = "<group>";
+		};
+		17BB77A12020531B009AA606 /* Exploring the Waters */ = {
+			isa = PBXGroup;
+			children = (
+				17BB77A320205363009AA606 /* alternatingSums.swift */,
+				17BB77A7202087D9009AA606 /* addBorder.swift */,
+			);
+			path = "Exploring the Waters";
+			sourceTree = "<group>";
+		};
+		17BB77A220205338009AA606 /* Exploring the Waters */ = {
+			isa = PBXGroup;
+			children = (
+				17BB77A5202054FB009AA606 /* CodeFightsAlternatingSums.swift */,
+				17BB77A9202087E9009AA606 /* CodeFightsAddBorder.swift */,
+			);
+			path = "Exploring the Waters";
 			sourceTree = "<group>";
 		};
 		17E8B609201ACAE900EA4B58 /* Smooth Sailing */ = {
@@ -429,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				174DBA232012FE8E006AF7E6 /* adjacentElementsProduct.swift in Sources */,
+				17BB77A8202087D9009AA606 /* addBorder.swift in Sources */,
 				178D7EBC201C8DF9005E5D71 /* reverseParentheses.swift in Sources */,
 				175213E32019CE2B0087737F /* matrixElementsSum.swift in Sources */,
 				1789EB3E20146ED50067F58A /* almostIncreasingSequence.swift in Sources */,
@@ -437,6 +466,7 @@
 				174D58CA2010876F009D45C3 /* ViewController.swift in Sources */,
 				175213E82019F4D50087737F /* commonCharacterCount.swift in Sources */,
 				174D58C82010876F009D45C3 /* AppDelegate.swift in Sources */,
+				17BB77A420205363009AA606 /* alternatingSums.swift in Sources */,
 				178D7EB8201C71E2005E5D71 /* sortByHeight.swift in Sources */,
 				174DBA2520130EA5006AF7E6 /* shapeArea.swift in Sources */,
 				174D58F82010887F009D45C3 /* add.swift in Sources */,
@@ -462,8 +492,10 @@
 				17E8B623201B126900EA4B58 /* CodeFightsAllLongestStrings.swift in Sources */,
 				17E8B61B201B019A00EA4B58 /* CodeFightsShapeArea.swift in Sources */,
 				174D58DD2010876F009D45C3 /* CodeFightsTests.swift in Sources */,
+				17BB77AA202087E9009AA606 /* CodeFightsAddBorder.swift in Sources */,
 				17E8B61D201B027000EA4B58 /* CodeFightsMakeArrayConsecutive2.swift in Sources */,
 				17E8B621201B04CE00EA4B58 /* CodeFightsMatrixElementsSum.swift in Sources */,
+				17BB77A6202054FB009AA606 /* CodeFightsAlternatingSums.swift in Sources */,
 				177E6FBD201F3E7500BC2460 /* CodeFightsReverseParentheses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
